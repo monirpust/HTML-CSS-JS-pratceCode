@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Form Demo</title>
+ </head>
+ <body>
+ <h1>Login</h1>
+ <p>This is not an actual fomr but some input fields</p>
+ <input type="text" placeholder ="username">
+ <input name="password" type="password" placeholder ="password">
+ <input type="submit">
+<!-- Actually it's not a form, cause there is no container but three input -->
+
+ <form action="http://wikipedia.org" method="GET">
+  <h1>Login</h1>
+  <p>Labeling method 1</p>
+  <label>
+   Username:
+   <input name="username" type="text" placeholder ="username">
+  </label>
+   Password:
+  <input name="password" type="password" placeholder ="password">
+  <label>
+  <input type="submit">
+ </form>
+<p>This is an actual form.</p>
+
+
+<!-- label method 2 -->
+<p>Labeling method 2</p>
+ <h1>Login</h1>
+ <form action="http://wikipedia.org" method="GET">
+  <label for="username">Username:</label>
+  <input id="username" type="text" placeholder ="username">
+  <label for="password">Password:</label>
+  <input id="password" type="password" placeholder ="password">
+  <input type="submit">
+ </form>
+
+<!-- label method 3 should not use -->
+<p>Labeling method 3</p>
+ <h1>Login</h1>
+ <form action="http://wikipedia.org" method="GET">
+  <label >Username:</label>
+  <input type="text" placeholder ="username">
+  <label >Password:</label>
+  <input  type="password" placeholder ="password">
+  <input type="submit">
+ </form>
+ </body>
+</html>

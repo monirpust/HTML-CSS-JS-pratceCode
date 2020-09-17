@@ -1,0 +1,17 @@
+img{
+	width: 30%;
+	float: left;
+	margin: 1.66%
+
+}
+
+p{
+	margin: 1.66%;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 23px;
+	border-bottom: 2px solid lightgray;
+	width: 30%;
+	padding-bottom: 10px;
+
+}

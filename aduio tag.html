@@ -1,0 +1,22 @@
+<!DOCTYOPE html>
+<html>
+ <head>
+  <title>Audio Element</title>
+ </head>
+
+ <body>
+  <p>HTML5 special features, audio file playing</p>
+  <audio src="src/audiosong.mp3" controls >
+  Audio Element not supported by your browser
+  </audio>
+
+  <!--The second way uses the <source> element inside the <audio> element:-->
+   
+  <audio controls>
+   <source src="src/audiosong.mp3" type="audio/mpeg">
+   <source src="src/audiosong.mp3" type="audio/ogg">
+  </audio>
+   
+ </body>
+
+</html>
